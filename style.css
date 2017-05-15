@@ -1,0 +1,123 @@
+body{
+		margin:10;
+		background-image: url("i.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-size: 100% ;
+
+	}
+.nav{
+  overflow: hidden;
+  background-color: #333;
+   background: -webkit-linear-gradient(top, grey 0%,black 100%);
+	}
+
+.nav a{
+	margin: 10px;
+	width: 90px;
+  float: left;
+  display: block;
+  color: #ff1aff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-size: 80px 60px ;
+  background: -webkit-linear-gradient(top, black 0%,grey 100%);
+  opacity: 0.8;
+  background-color: red;
+}
+
+.nav a:hover{
+  background-color: yellow;
+  color: white;
+  opacity: 0.5;
+  }
+
+.nav a.active{
+    background-color: green;
+    color: white;
+	
+}
+.myname{
+	font-size: 27px;
+    margin-top: 7%;
+    margin-left: 60%;
+    margin-right: 10%;
+    min-width: 35%;
+    min-height: 85%;
+	position: absolute;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    padding: 0em;
+    background-size: 100%;
+	background-color: #999966;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px white;
+	color: #00e6e6;
+	background: -webkit-linear-gradient(top, black 0%,grey 100%);
+}
+.aa{
+	font-size: 30px;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 80%;
+    min-height: 50%;
+	position: absolute;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    padding: 0em;
+    background-size: 100%;
+	background-color: #ff33cc;
+	border-style: solid;
+    border-color: red blue red blue;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px white;
+	color: #00e6e6;
+	position: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+	color: #0000ff;
+	text-align: center;
+	 border-style: solid;
+	 border-color: black;
+	
+	 
+}
+table {
+	font-size: 30px;
+	position: absolute;
+	 z-index: 1;
+	  min-width: 80%;
+    min-height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+	 background-color: #33cccc;
+	
+	
+}
+th {
+	color: #00cc00;
+}
+
+tr:nth-child(even) {
+    background-color: #ff8000;
+	color: #264d73;
+}
+h1{
+	color: #ff1aff;
+	font-size: 70px;
+	text-align: center;
+	background: -webkit-linear-gradient(top, green 0%,blue 100%);
+	
+}
+.main {
+	background-size: 100%;
+}
